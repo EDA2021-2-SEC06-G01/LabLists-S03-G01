@@ -13,3 +13,30 @@ y que para cada llave tiene un lista como su valor.
 - En el view.py las funcion initcatalog y el loadcatalog llaman al controller.py
 en donde esas funciones leen el archivo luego usan el model.py para añadir los
 datos a la estructura.
+
+
+Como dice la guía, estas respuestas están basadas únicamente en el archivo list.py:
+
+• ¿Cómo se crea una lista?
+
+En list.py se reciben los parámatros con las que se van crear la lista en la funcióon
+newList. Esta función llama a otro módulo que se encarga de crear en si la lista.
+Luego esta lista es retornada.
+
+• ¿Qué hace el parámetro cmpfunction=None en la función newList()?
+Este parámetro es la función de comparación de la lista. Esta igualada a None 
+para que este sea su valor predeterminado, sin embargo en la asignaura dice que el usuario
+debería de dar o una función de comparación o un key para crear la lista.
+
+• ¿Qué hace la función addLast()?
+En list.py se reciben los parámetros para añadir un elemento en la última posición
+de una lista. Sin embargo también se llama a otro módulo para que haga en si la operación.
+
+• ¿Qué hace la función getElement()?
+En list.py se reciben los parámetros para retornar el elemento de una posición en una lista
+ Sin embargo también se llama a otro módulo para que haga en si la operación.
+
+• ¿Qué hace la función subList()?
+
+En list.py se reciben los parámetros para retornar una sublista de la lista
+ Sin embargo también se llama a otro módulo para que haga en si la operación.
