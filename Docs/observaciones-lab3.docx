@@ -40,3 +40,6 @@ En list.py se reciben los parámetros para retornar el elemento de una posición
 
 En list.py se reciben los parámetros para retornar una sublista de la lista
  Sin embargo también se llama a otro módulo para que haga en si la operación.
+
+ Paso 5
+ No identificamos cambios en el funcionamiento del programa
