@@ -1,4 +1,8 @@
-#ISIS1225 - Estructura de un proyecto
+#ISIS1225 - Estructura de un proyecto}
+
+Nicolás Palacios - 202021759
+Alejandro Guerrero - 201912747
+
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
 
