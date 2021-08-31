@@ -1,3 +1,15 @@
 ¿Cuáles son los mecanismos de interacción (I/O: Input/Output) que tiene el view.py con el usuario?
+- Los mecanismos input son el seleccionar un numero en la funcion printmenu en el view.py
+dependiendo de lo que se busque y los mecanisos output son los que te muetsran el menu y 
+luego te muetsran el resultado de lo que se introdujo. 
+
 • ¿Cómo se almacenan los datos de GoodReads en el model.py?
+
+- Se almacenan en un catalogo el cual es un diccionario que tiene 4 llaves
+y que para cada llave tiene un lista como su valor.
+
 • ¿Cuáles son las funciones que comunican el view.py y el model.py?
+
+- En el view.py las funcion initcatalog y el loadcatalog llaman al controller.py
+en donde esas funciones leen el archivo luego usan el model.py para añadir los
+datos a la estructura.
